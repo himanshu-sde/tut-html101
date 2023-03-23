@@ -52,9 +52,35 @@
     <p>Some paragraph text</p>
     <!-- I am another html comment-->
 
-    <h2>ordered and unordered list</h2>
+    <h2>Ordered and Unordered list</h2>
 
     <p>The li HTML element is used to represent an item in a list. It must be contained in a parent element:either an ordered list ( ol) or an unordered list ( ul )</p>
+
+    <h2>Links and Images
+    </h2>
+
+    <p>LINKS - "a" tag and IMAGES - "img" tag </p>
+
+    <ul>LINKS
+        <li><a href="https://www.theodinproject.com/about">click me</a> This is an absolute link using "a" tag and "href"(hyperlink reference)  attribute i.e, Links to pages on other websites on the internet are called absolute links.</li>
+
+        <li>Creating a new About page for relative link. In this we will give href="about.html" => <a href="about.html">About Page</a> . This works because the index and about page are in the same directory. That means we can simply use its name (about.html) as the link’s href value.</li>
+
+        <li>Relative links only include the file path to the other page, relative to the page you are creating the link on.</li>
+    </ul>
+    <ul>IMAGES
+        <li>"img" element is self-closing with "src" attribute which works exactly like "href". </li>
+
+        <li>For e.g: Abosulte path Image is as follows: </li>
+
+        <img src="https://www.theodinproject.com/mstile-310x310.png">
+
+        <li>The alt attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe. Also, Besides the src attribute, every image element should also have an alt (alternative text) attribute.</li>
+
+        <li> For e.g: ALT use + Relative path Image is as follows:</li>
+
+        <img src="./images/HTML TAGS.png" alt="USEFUL HTML TAGS">
+    </ul>
 
 </body>
 </html>
